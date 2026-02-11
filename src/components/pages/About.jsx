@@ -33,7 +33,7 @@ export default function About() {
                     </div>
                 </div>
                 <Link to={"/"}>
-                    <button className="px-6 py-3 m-9 rounded-lg bg-blue-500 text-white hover:bg-indigo-700 transition duration-300 w-full sm:w-auto">Go Back Home </button> </Link>
+                    <button className=" m-4 px-2 py-2  rounded-lg bg-blue-500 text-white hover:bg-indigo-700 transition duration-300  ">Go Back Home </button> </Link>
             </div>
         </section>
     )
