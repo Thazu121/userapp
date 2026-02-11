@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import RootLayout from "./Layouts/RootLayout.jsx"
-import {createBrowserRouter,RouterProvider} from "react-router-dom"
+import {createBrowserRouter,RouterProvider,HashRouter} from "react-router-dom"
 import Home from "./components/pages/Home.jsx"
 import About from "./components/pages/About.jsx"
 import Users from './components/pages/Users.jsx'
@@ -32,6 +32,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <HashRouter>
     <RouterProvider router={router} />
+    </HashRouter>
   </StrictMode>
 )
